@@ -20,6 +20,23 @@ The analysis was conducted using the following tables:
 ## Part 3 — SQL Queries
 
 ### 6(a) Highest Demand Rate in 2017
+SQL Query 
+SELECT
+   t.`timestamp`,
+   c. demand 
+FROM Carsharing_df AS c
+JOIN `adela_siwes project - time` AS t 
+   ON c.id = t.id
+WHERE YEAR(t.`timestamp`) = 2017
+ORDER BY c.demand DESC
+LIMIT 1;
+
+Result 
+| Date and Time | Demand |
+|---|---:|
+| 2017-06-05 17:00:00 | 6.458338283
+
+Answer: The highest demand rate recorded in 2017 was 6.458338283, occuring in the 15th of June 2017 at 5:00 pm
 
 ### 6(b) Highest and Lowest Average Demand
 
