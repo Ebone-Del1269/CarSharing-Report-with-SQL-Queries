@@ -385,7 +385,8 @@ ORDER BY average_demand DESC;
 
 ### Google Drive Tables
 
-The analysis tables will be stored in Google Drive and linked here.
+The analysis tables are stored in Google Drive linked below.
+https://docs.google.com/spreadsheets/d/1Sj6rzq0G_aNcMWIgzjEUWVUsnZwLBmUY/edit?usp=sharing&ouid=118330137226422541963&rtpof=true&sd=true
 
 ### Conclusion
 
