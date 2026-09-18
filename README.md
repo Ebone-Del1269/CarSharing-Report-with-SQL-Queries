@@ -6,7 +6,7 @@ This project analyses CarSharing data for the year 2017 using SQL.
 
 The analysis focuses on demand patterns, time-based demand, weather conditions, temperature categories, wind speed, and humidity.
 
-The purpose of the analysis is to provide insights that can support the company's marketing team in understanding demand patterns and other weather-related trends.
+The purpose of the analysis is to provide insights to help the company's marketing team understand demand patterns and other weather-related trends.
 
 ## Database Structure
 
@@ -235,7 +235,23 @@ GROUP BY t.monthday_name
 ORDER BY MIN(t.`timestamp`);
 ```
 
-The monthly wind speed results will be added to the table after verifying the query output.
+**Result**
+
+| Month     | Average Windspeed | Highest Windspeed | Lowest Windspeed |
+| --------- | ----------------: | ----------------: | ---------------: |
+| January   |           13.7481 |           39.0007 |                0 |
+| February  |           15.5777 |           51.9987 |                0 |
+| March     |           15.9749 |           40.9973 |                0 |
+| April     |           15.8523 |           40.9973 |                0 |
+| May       |           12.4274 |           40.9973 |                0 |
+| June      |           11.8276 |           35.0008 |                0 |
+| July      |           12.0158 |           56.9969 |                0 |
+| August    |           12.4111 |           43.0006 |                0 |
+| September |           11.5641 |           40.9973 |                0 |
+| October   |           10.8921 |           36.9974 |                0 |
+| November  |           12.1423 |           36.9974 |                0 |
+| December  |           10.8365 |           43.0006 |                0 |
+
 
 #### Monthly Humidity
 
